@@ -24,9 +24,16 @@
 //     echo $i . "\n";
 // }
 
-$array = ["a", "b", "c", "d", "name" => "John"];
+// $array = ["a", "b", "c", "d", "name" => "John"];
 
-for ($i = 0; $i > count(($array); $i++))
+// for ($i = 0; $i > count(($array); $i++))
+
+$number = 157;
+$string = "83";
+
+$result = $number + $string;
+echo $result;
+
 
 ?>
 </pre>
