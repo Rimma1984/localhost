@@ -1,3 +1,11 @@
+<?php
+if  (file_exists('test/passwords.txt')) {
+    echo 'YES';
+    }
+     else {
+        echo 'No';
+     }
+?>
 <!DOCTYPE html>
 <html lang='ru'>
 
@@ -6,7 +14,7 @@
         <input type="text" name="username" placeholder="Username">
         <button>Send</button>
     </form>
-    <?php
+    <!-- <?php
     $number = 157;
     $string = "83";
 
@@ -14,7 +22,7 @@
     echo "$number + $string =";
     echo $result;
     echo gettype ($result);
-    ?>
+    ?> -->
 </body>
 
 </html>
