@@ -27,6 +27,7 @@
     <div class="container mt-3">
         <div class="row mb-3">
             <div class="col-12">
+                    <p>Сейчас: <?php echo date("d.m.Y H:i:s", time()+30*60*60) ?></p>
                 <form action="">
                     <div class="mb-3">
                         <label for="comment" class="form-label">String 1</label>
